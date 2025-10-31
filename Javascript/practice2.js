@@ -4,7 +4,7 @@ const profile={
     Followers:569000,
     following:4,
     isfollow:true,
-    Threads:"shinu",
+   // Threads:"shinu",
     Desciption:"Entrepreneur ",
 };
 console.log(typeof profile);
