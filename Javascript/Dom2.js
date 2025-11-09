@@ -8,11 +8,11 @@
 // console.log(para.getAttribute("class"));
 // console.log(para.setAttribute("class","123"));
 
-let div=document.querySelector("div");
-console.log("div");
-div.style.backgroundColor="green";
-// div.style.visibility="hidden";
-div.style.fontSize="27px";
+// let div=document.querySelector("div");
+// console.log("div");
+// div.style.backgroundColor="green";
+// // div.style.visibility="hidden";
+// div.style.fontSize="27px";
 
 // let newbtn=document.createElement("button");
 // newbtn.innerText="click me";
@@ -28,5 +28,7 @@ div.style.fontSize="27px";
 // for after the node
 // 
 let newheading =document.createElement("h1");
-newheading.innerHTMl="<i> HI, i am new here</i>";
-document.querySelector("body").prepend(newheading);
+newheading.innerHTML="<i> HI, i am new here</i>";
+console.log(newheading);
+document.querySelector("div").append(newheading);
+newheading.remove();
