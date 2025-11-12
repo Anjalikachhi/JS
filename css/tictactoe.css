@@ -61,3 +61,22 @@ text-align: center;
 .hide{
     display:none;
 }
+#draw-msg {
+    font-size: 1.2rem;
+    color: rgb(50, 18, 2);
+    font-weight: bold;
+}
+#msg, #draw-msg {
+  margin: 0.5rem 0;
+}
+.x {
+  color: red;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.o {
+  color: blue;
+  font-weight: bold;
+  font-size: 2rem;
+}
