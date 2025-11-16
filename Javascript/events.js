@@ -16,11 +16,11 @@ btn1.addEventListener("click",()=>
 {
     console.log("handler4");
 } );
-btn1.removeEventListener("click",handler)
-// btn1.onclick= (evt ) => {
+// btn1.removeEventListener("click",handler)
+//  btn1.onclick= (evt ) => {
 //     console.log(evt);
 //     console.log(evt.type);
-//         console.log(evt.target);
+//         console.log(evt.targe/t);
 //             console.log(evt.clientX,evt.clientY);
 
 

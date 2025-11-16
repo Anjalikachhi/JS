@@ -12,11 +12,12 @@ console.log(veggies.toString())
   let heroes=marble.concat(dc,he);
   console.log(heroes);
   // unshift  and shift
-  marble.unshift("comma");
-  marble.shift("comma");
+   let power=marble.unshift("comma");
+   console.log(marble);
+  // marble.shift("");
 
 //slice :returns a piece of array
-//console.log(marble.slice(1,3));
+console.log(marble.slice(1,3));
 //splice : to original array (add,rmove,replace);
 console.log(marble.splice(1,2,"Antman"));
 console.log(marble);

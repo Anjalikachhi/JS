@@ -10,7 +10,7 @@ function Sum(a,b){
   //a and b are local variable
   s=a+b;
     return s;//only one value will be returned but not save yet so if you want to print then saved it somewhere
-console.log("after return");
+// console.log("after return");
 }
 Sum(2,3);
 // sum arrow function 

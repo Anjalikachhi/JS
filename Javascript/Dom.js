@@ -1,16 +1,16 @@
-// console.log("hello");
-// window.alert("hello");
-// 
-// console.body.style.backgroundcolor="pink";
-// 
+console.log("hello");
+window.alert("hello");
 
-//for accesing the document using id class and tag
-//  let head=document.getElementById("demo");
-//  console.dir(head);
-//  let heads=document.getElementsByClassName("demo-class");
-//  console.dir(heads);
-//  let para=document.getElementsByTagName("p");
-//  console.dir(para);
+// console.body.style.backgroundcolor="pink";
+
+
+// for accesing the document using id class and tag
+ let head=document.getElementById("demo");
+ console.dir(head);
+ let heads=document.getElementsByClassName("demo-class");
+ console.dir(heads);
+ let para=document.getElementsByTagName("p");
+ console.dir(para);
 
 
 //for accesing anything we can just use query selector it will detect and then return the document
