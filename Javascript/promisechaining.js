@@ -10,18 +10,30 @@ getNextData();
     },2000);
       });
 }
+async function getAlldata() {
+    console.log("geting datta 1");
+    await getData(1);
+        console.log("geting datta 2");
 
+        await getData(2);
+            console.log("geting datta 3");
 
-    
-   
+    await getData(3);
+
+}
 //promise chain
-let p1=getData(1);
-p1.then((res)=>{
-    console.log(res);
-    return getData(2);
-    }).then((res)=>{
-        console.log(res)
-    })
+// let p1=getData(1);
+// p1.then((res)=>{
+//     console.log(res);
+//     return getData(2);
+//     }).then((res)=>{
+//         return getData(3);
+//     }).then((res)=>{
+//         console.log(res);
+//     })
+
+
+    ///call back hell
     // getData(2).then((res)=>{
     //     console.log(res);
     // })
