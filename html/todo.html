@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Task App</title>
+  <link rel="stylesheet" href="../css/todo.css">
+</head>
+<body>
+  <h1>Mini Task App</h1>
+  <form id="taskForm">
+    <input id="taskInput" type="text" placeholder="New task..." required>
+    <select id="prioritySelect">
+      <option value="low">Low</option>
+      <option value="medium" selected>Medium</option>
+      <option value="high">High</option>
+    </select>
+    <button type="submit">Add</button>
+  </form>
+  <ul id="taskList"></ul>
+  <button id="clearBtn">Clear Completed</button>
+  <script src="../Javascript/todo.js"></script>
+</body>
+</html>
