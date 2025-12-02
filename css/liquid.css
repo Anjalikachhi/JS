@@ -1,0 +1,47 @@
+body {
+  background: radial-gradient(circle at center, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  perspective: 1000px;
+}
+
+.liquid-btn {
+  position: relative;
+  padding: 20px 50px;
+  font-size: 1.5rem;
+  color: #fff;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.liquid-btn:hover {
+  transform: scale(1.1) rotateY(10deg);
+  box-shadow: 0 0 25px rgba(0, 200, 255, 0.7);
+}
+
+/* Ripple effect */
+.liquid-btn span {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple 0.6s linear;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
