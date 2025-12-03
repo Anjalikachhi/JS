@@ -1,0 +1,55 @@
+/* Default light theme */
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+}
+
+.clock-container {
+  display: inline-block;
+  padding: 30px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/* Dark theme */
+body.dark {
+  background-color: #222;
+  color: #eee;
+}
+
+body.dark .clock-container {
+  background: #333;
+  box-shadow: 0 4px 10px rgba(255,255,255,0.1);
+}
+
+body.dark button {
+  background: #ff9800;
+}
+
+body.dark button:hover {
+  background: #e68900;
+}
