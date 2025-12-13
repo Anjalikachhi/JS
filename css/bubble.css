@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ababf5;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 300px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(10px);
+    position: relative;
+    z-index: 2;
+}
+
+.card button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #ff7bda;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #ff4cc9;
+}
+
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: floatUp 6s linear infinite;
+}
+
+@keyframes floatUp {
+    from {
+        transform: translateY(0);
+        opacity: 0.6;
+    }
+    to {
+        transform: translateY(-120vh);
+        opacity: 0;
+    }
+}
