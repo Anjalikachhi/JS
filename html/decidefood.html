@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Food Picker</title>
+    <link rel="stylesheet" href="../css/decidefood.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>What Should You Eat?</h1>
+
+        <label for="mood">Select your mood:</label>
+        <select id="mood">
+            <option value="happy">Happy</option>
+            <option value="sad">Sad</option>
+            <option value="tired">Tired</option>
+            <option value="excited">Excited</option>
+            <option value="stressed">Stressed</option>
+        </select>
+
+        <button onclick="decideFood()">Decide for me</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="../Javascript/decidefood.js"></script>
+</body>
+</html>
