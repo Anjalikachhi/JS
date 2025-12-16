@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Confidence Booster</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/motivation.css">
+</head>
+<body>
+
+  <!-- floating background blobs -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- main card -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <span class="logo-dot"></span>
+        Confidence Booster
+      </div>
+      <div class="card-meta">
+        <div class="pill">
+          <span class="dot-indicator"></span>
+          <span>Self‑care mode</span>
+        </div>
+        <div>Press <strong>Space</strong> or click boost</div>
+      </div>
+    </div>
+
+    <div class="quote-wrapper">
+      <div class="quote-label">Today’s reminder</div>
+      <div id="quote" class="quote-text typing">
+        You’ve survived every bad day so far. That’s a perfect record.
+      </div>
+      <div id="author" class="quote-author">— Your future self</div>
+    </div>
+
+    <div class="controls">
+      <button id="boostBtn" class="btn-main">
+        Give me a boost ✨
+      </button>
+      <button id="softBtn" class="btn-ghost" title="A softer, gentler reminder">
+        Gentle mode
+        <span class="key">G</span>
+      </button>
+    </div>
+
+    <div class="mood">
+      <span>Current confidence level</span>
+      <div class="mood-bar">
+        <div id="moodFill" class="mood-fill"></div>
+      </div>
+      <span id="moodLabel" class="mood-label">Warming up…</span>
+    </div>
+
+    <div class="footer-note">
+      You are not <span class="accent">behind</span>. You are on your <span class="accent">path</span>.
+    </div>
+  </div>
+
+  <script src="../Javascript/motivation.js"></script>
+</body>
+</html>
